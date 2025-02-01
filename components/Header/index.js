@@ -89,7 +89,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("https://www.linkedin.com/in/shafiq-azam/")}
                   >
                     Contact
                   </Button>
@@ -111,7 +111,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("https://www.linkedin.com/in/shafiq-azam/")}
                   >
                     Contact
                   </Button>
@@ -148,7 +148,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("https://www.linkedin.com/in/shafiq-azam/")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -177,7 +177,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("https://www.linkedin.com/in/shafiq-azam/")}>
               Contact
             </Button>
 
