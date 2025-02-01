@@ -13,6 +13,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
   const { name, showBlog, showResume } = data;
 
+  const pdfUrl = './CV_ShafiqAzam.pdf'; // Path to the PDF file in the public folder
+
+  const handleOpenPdf = () => {
+    window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
+  };
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -76,9 +82,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={handleOpenPdf}
                     >
                       Resume
                     </Button>
@@ -100,8 +104,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
+                    onClick={handleOpenPdf} classes="first:ml-1"
                     >
                       Resume
                     </Button>
@@ -138,7 +141,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
             {showResume && (
               <Button
-                onClick={() => router.push("/resume")}
+                onClick={handleOpenPdf}
                 classes="first:ml-1"
               >
                 Resume
@@ -167,7 +170,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             )}
             {showResume && (
               <Button
-                onClick={() => router.push("/resume")}
+                onClick={handleOpenPdf}
                 classes="first:ml-1"
               >
                 Resume

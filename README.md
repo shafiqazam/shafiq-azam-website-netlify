@@ -1,4 +1,8 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+Portfolio of Shafiq Azam
+
+Template by https://github.com/chetanverma16/react-portfolio-template
+
+<!-- ![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
 ### Live - https://react-portfolio-template.netlify.app/
 
@@ -76,4 +80,4 @@ Many hours of hard work have gone into this project. Your support will be very a
 
 
 
-
+ -->
