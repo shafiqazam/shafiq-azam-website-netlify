@@ -87,7 +87,7 @@ export default function Home() {
           <div className="mt-5">
             <h1
               ref={textOne}
-              className="mb-10 flex justify-center text-xs tablet:text-6xl laptop:text-6xl laptopl:text-3xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-5/5"
+              className="mb-10 flex justify-center text-center text-xs tablet:text-6xl laptop:text-6xl laptopl:text-3xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-5/5"
             >
               {data.headerTaglineOne}
             </h1>
