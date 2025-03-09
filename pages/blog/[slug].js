@@ -56,7 +56,7 @@ const BlogPost = ({ post }) => {
           </h2>
         </div>
         <ContentSection content={post.content}></ContentSection>
-        <Footer />
+        {/* <Footer /> */}
       </div>
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
